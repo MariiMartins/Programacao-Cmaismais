@@ -20,39 +20,39 @@ int main()
     cout << "Menor numero = " << a << endl;
     if (b < c)
     {
-      count << "Intermediario = " << b << endl;
-      count << "Maior numero = " << c << endl;
+      cout << "Intermediario = " << b << endl;
+      cout << "Maior numero = " << c << endl;
     }  
     else
     {
-      count << "Intermediario = " << c << endl;
-      count << "Maior numero = " << b << endl; 
+      cout << "Intermediario = " << c << endl;
+      cout << "Maior numero = " << b << endl; 
     }
   if (b<a && b<c)
   {
     cout << "Menor numero = " << b << endl;
     if (b < c)
     {
-      count << "Intermediario = " << a << endl;
-      count << "Maior numero = " << c << endl;
+      cout << "Intermediario = " << a << endl;
+      cout << "Maior numero = " << c << endl;
     }  
     else
     {
-      count << "Intermediario = " << c << endl;
-      count << "Maior numero = " << a << endl; 
+      cout << "Intermediario = " << c << endl;
+      cout << "Maior numero = " << a << endl; 
    }
       if (c<a && c<b)
   {
     cout << "Menor numero = " << c << endl;
     if (b < c)
     {
-      count << "Intermediario = " << a << endl;
-      count << "Maior numero = " << b << endl;
+      cout << "Intermediario = " << a << endl;
+      cout << "Maior numero = " << b << endl;
     }  
     else
     {
-      count << "Intermediario = " << b << endl;
-      count << "Maior numero = " << a << endl; 
+      cout << "Intermediario = " << b << endl;
+      cout << "Maior numero = " << a << endl; 
    }
    return 0;
 }  
