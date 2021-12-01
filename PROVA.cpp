@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-  float valor=0, imposto=0;
+  float valor=0, imposto=0, total=0;
   
   cout << "PROGRAMA PARA VERIFICAR O VALOR DA TAXAÇÃO DE IMPOSTOS EM DETERMINADO PRODUTO" << endl;
 
@@ -21,13 +21,17 @@ int main()
   {
       if (valor <= 500.0)
       {
-        imposto = valor * 1.05;
-        cout << "Há 5% de Imposto! Valor da Compra = R$ " << imposto << endl;
+        imposto = valor * 0.05;
+        total = valor * 1.05;
+        cout << "Há 5% de Imposto! Valor do Imposto = R$ " << imposto << endl;
+        cout << "Valor da Compra = R$ " << total << endl;
       }
       else
       {
-        imposto = valor * 1.10;
+        imposto = valor * 0.10;
+        total = valor * 1.10;
         cout << "Há 10% de Imposto! Valor da Compra = R$ " << imposto << endl;
+        cout << "Valor da Compra = R$ " << total << endl;
       }
   }  
  
